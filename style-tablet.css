@@ -1,0 +1,23 @@
+/* Styles for tablets (width <= 991px) */
+
+body {
+    font-size: 16px;
+}
+
+/* slightly less width */
+main {
+    max-width: 95vw;
+    padding: 15px;
+}
+
+/* stack vertically for tablets */
+nav ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+/* not fixed for tablets */
+footer {
+    position: static;
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+/* Styles for mobiles (width <= 600px) */
+
+/* smallest font for mobiles */
+body {
+    font-size: 14px;
+}
+
+/* use almost full width for mobiles */
+main {
+    max-width: 100vw;
+    padding: 10px;
+}
+
+/* stack vertically and center */
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: block;
+    margin: 8px 0;
+}
+
+header, footer {
+    padding: 10px 0;
+}
+
+/* not fixed for mobiles */
+footer {
+    position: static;
+    width: 100%;
+}
