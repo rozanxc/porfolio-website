@@ -2,16 +2,15 @@
 
 /* Body styling */
 body {
-    /* Set default font and background color */
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #f7cac9 0%, #92a8d1 100%); /* Linear gradient background */
+    background: linear-gradient(135deg, #000000 50%, #150A0E 100%); /* Linear gradient background */
     margin: 0;
     padding: 0;
 }
 
 /* Header styling */
 header {
-    background-color: #034f84; /*  color for the header */
+    background-color: #000000; /*  color for the header */
     color: #fff; /*  text color */
     padding: 20px 0; /* top and bottom padding */
     text-align: center; /* alignment of the text */
@@ -26,28 +25,28 @@ nav ul {
 
 nav ul li {
     display: inline; /* it displays the items in a horizontal alignment */
-    margin: 0 15px; /* adds space between items */
+    margin: 0 15px; /* adds space between differnet sections */
 }
 
 nav ul li a {
     color: #fff; /* White color for links */
-    text-decoration: none; /* removes underline */
-    font-weight: bold;
+    font-weight: bold;        
 }
 
+	
 /* Main content area */
 main {
-    max-width: 800px; /* Limit width of content */
-    margin: 30px auto; /* Center the content */
-    background: #fff; /* White background */
-    padding: 20px; /* Padding around content */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+    max-width: 800px; /* limit width of content */
+    margin: 30px auto; /* center the content */
+    background-color: #100D12;
+    padding: 20px; 
+    border-radius: 8px; /* rounded corners */
+	color: #fff;
 }
 
-/* Footer styling */
+/* footer */
 footer {
-    background-color: #034f84;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -56,20 +55,21 @@ footer {
     bottom: 0;
 }
 
-/* Style for images */
+/* for picture*/
 img {
     display: block; /* makes the picture a block element*/
     margin: 10px auto; /* centers the image */
 	border-radius: 10px; /* rounded corners for a smooth look*/
-    border: 3px solid #034f84;
+    border: 3px solid #fff;
+	
 }
 
-/* Style for video same as the picture*/
+/* for video */
 video {
     display: block;
     margin: 10px auto;
     border-radius: 10px; 
-    border: 2px solid #034f84; 
+    border: 2px solid #fff; 
 }
 
 /* Form styling */
@@ -83,29 +83,32 @@ label {
 }
 
 input, textarea {
-    width: 100%; /* Full width inputs */
-    padding: 8px; /* Padding */
-    margin-top: 5px; /* Space above */
-    border: 1px solid #cccccc; /* Light border */
-    border-radius: 4px; /* Rounded corners */
-    box-sizing: border-box; /* Include padding in width */
+    width: 100%; /* so the user has a lot of space to enter text */
+    padding: 8px; 
+    margin-top: 5px; 
+    border: 1px solid #000000; 
+    border-radius: 15px; 
+    box-sizing: border-box;
 }
 
 button {
-    margin-top: 15px; /* Space above button */
-    background-color: #f7cac9; /* Use scheme color */
-    color: #034f84; /* Contrast color */
-    padding: 10px 20px; /* Padding */
-    border: none; /* No border */
-    border-radius: 4px; /* Rounded corners */
+	display: block; /* make it a block element so i can center */
+	margin: 15px auto 0;
+	margin-top: 15px;
+    background-color: #000000; 
+    color: #fff;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 4px;
+	
 }
 
 button:hover {
-    background-color: #92a8d1; /* change color on hover */
+    background-color: #A1A1A1; /* change color on hover */
     color: #fff;
 }
 
-/* Section headings */
+/* headings */
 h2, h3 {
-    color: #034f84; /* Heading color */
+    color: #fff; /* Heading color */
 }
