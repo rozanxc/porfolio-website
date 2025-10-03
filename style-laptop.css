@@ -72,6 +72,7 @@ video {
     border: 2px solid #fff; 
 }
 
+
 /* Form styling */
 form {
     margin-top: 0px; /* Space above form */
@@ -112,3 +113,46 @@ button:hover {
 h2, h3 {
     color: #fff; /* Heading color */
 }
+
+/*  project list   */
+.projects {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0;
+}
+
+.project {
+    background: #1a161d;
+    border: 1px solid #2a2630;
+    padding: 14px;
+    border-radius: 8px;
+    margin: 12px 0;
+}
+
+.project h3 {
+    margin: 0 0 6px;
+    color: #fff;
+}
+
+.project p {
+    margin: 0 0 10px;
+    color: #ddd;
+}
+
+.project .btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 120ms ease, transform 120ms ease;
+}
+
+.project .btn:hover,
+.project .btn:focus-visible {
+    background: #92a8d1;
+    transform: scale(1.03);
+}
+
+	
