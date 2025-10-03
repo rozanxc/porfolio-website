@@ -67,4 +67,4 @@ Why I chose this scheme:
 ## How to view
 
 - Local: open `index.html` in a browser.
-- GitHub Pages : https://rozanxc.github.io/porfolio-website/
+- GitHub Pages : https://rozanxc.github.io/portfolio-website/
