@@ -23,7 +23,6 @@ I used three breakpoints to keep the layout readable and easy to navigate on any
 
 - Laptop/Desktop: 992px and up
   - Why: larger screens can show wider content with more white space.
-  - Note: main content is capped with `main { max-width: 800px; }` to keep line length comfortable and centered.
 
 ## Gradients used (linear + angled)
 
