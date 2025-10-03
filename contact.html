@@ -1,0 +1,56 @@
+<!-- This is the Contact Me page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me | My Portfolio</title>
+    <link rel="stylesheet" href="style-laptop.css">
+    <link rel="stylesheet" href="style-tablet.css" media="(max-width: 991px)">
+    <link rel="stylesheet" href="style-mobile.css" media="(max-width: 600px)">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contact form -->
+    <main>
+        <article>
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <!-- Name input -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <!-- Email input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                <br>
+                <!-- Cell No input -->
+                <label for="cell">Cell No.:</label>
+                <!-- allows only 10-15 digits -->
+                <input type="tel" id="cell" name="cell" required pattern="[0-9]{10,15}">
+                <br>
+                <!-- Comments textarea -->
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" required></textarea>
+                <br>
+                <!-- Submit button -->
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>Contact: <a href="mailto:roshaan.ghumman@ontariotechu.net">roshaan.ghumman@ontariotechu.net</a></p>
+        <p>&copy; 2025 Roshaan Ghumman. All rights reserved.</p>
+    </footer>
+</body>
+</html>

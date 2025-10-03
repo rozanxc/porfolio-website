@@ -1,0 +1,47 @@
+<!-- This is the About Me page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me | My Portfolio</title>
+    <link rel="stylesheet" href="style-laptop.css">
+    <link rel="stylesheet" href="style-tablet.css" media="(max-width: 991px)">
+    <link rel="stylesheet" href="style-mobile.css" media="(max-width: 600px)">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- About Me section -->
+        <article>
+            <h2>About Me</h2>
+            <img src="IMG_5206.jpg" alt="Roshaan Ghumman" width="150" height="240"> <!-- the alt part is what shows if the picture doesnt load. so for example if my pic doesnt load it will say my name instead so people can know. -->
+            <p>
+                Hi, I'm Roshaan Ghumman. I'm a 2nd year student at OntarioTech studying Tech Management. Welcome to my website!
+            </p>
+            <!-- embedded video with controls and poster -->
+            <video width="320" height="180" controls poster="poster.jpg"> <!-- poster is the thumbnail for the video before you play it -->
+                <source src="test.mp4" type="video/mp4">
+				<!-- fallback message if the browser doesnt support the video tag -->
+                Your browser does not support the video tag.
+            </video>
+            <!-- description of the video -->
+            <p>This is a cool valorant clip i hit. (im radiant)</p>
+        </article>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>Contact: <a href="mailto:roshaan.ghumman@ontariotechu.net">roshaan.ghumman@ontariotechu.net</a></p>
+        <p>&copy; 2025 Roshaan Ghumman. All rights reserved.</p>
+    </footer>
+</body>
+</html>
