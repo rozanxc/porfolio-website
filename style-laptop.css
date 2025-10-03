@@ -155,4 +155,8 @@ h2, h3 {
     transform: scale(1.03);
 }
 
-	
+
+/*  makes the footer email white  */
+footer a{
+	color: #fff
+}
